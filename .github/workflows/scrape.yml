@@ -37,4 +37,4 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add v2rayshare.txt
           git commit -m 'Update scraped text'
-          git push https://x-access-token:${{ secrets.ACTIONS_TOKEN }}@github.com/pengjunlong/scripts.git HEAD:main
+          git push https://pengjunlong:${{ secrets.ACTIONS_TOKEN }}@github.com/pengjunlong/scripts.git HEAD:main
