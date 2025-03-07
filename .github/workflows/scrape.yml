@@ -29,6 +29,9 @@ jobs:
         run: |
           python scrape.py
 
+# 由 GitHub 在每次工作流运行时自动创建
+      #默认拥有当前仓库的读写权限
+      #有效期为单次工作流运行期间
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
